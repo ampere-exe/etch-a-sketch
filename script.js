@@ -13,6 +13,9 @@ function createCanvas() {
         //square.textContent = "s";  
         row.appendChild(square);
         
+        let dimensionValue = (64/canvasDimension);
+        square.style.width = `${dimensionValue}vmin`;
+        square.style.height = `${dimensionValue}vmin`;
         // Hover effect
         square.addEventListener("mouseover", () => {
             console.log("Hello!");

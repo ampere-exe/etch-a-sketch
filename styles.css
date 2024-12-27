@@ -39,6 +39,4 @@ img {
 .square {
   background-color: whitesmoke;
   flex: auto;
-  width: 4vmin;/*2rem*/
-  height: 4vmin;
 }
