@@ -12,6 +12,12 @@ function createCanvas() {
         square.classList.add("square");
         //square.textContent = "s";  
         row.appendChild(square);
+        
+        // Hover effect
+        square.addEventListener("mouseover", () => {
+            console.log("Hello!");
+            square.style.backgroundColor="blue";
+        });
     }
   }
 }
