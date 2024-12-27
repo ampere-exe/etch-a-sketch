@@ -7,6 +7,8 @@
   gap: 50px;
 }
 .title-container {
+  gap: 30px;
+  flex-direction: row;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   color: navy;
   font-size: 50px;
@@ -15,20 +17,27 @@
   margin-top: 30px;
 }
 
+img {
+  width: 10%;
+  height: 10%;
+}
+
 .canvas-container {
   justify-content: center;
 }
 
 .canvas {
-  flex: 1, 1, 0;
+  border-style: solid;
+  border-color: red;
 }
+
 .row {
   display: block;
   background-color: blue;
 }
 
 .square {
-  background-color: lightcoral;
+  background-color: whitesmoke;
   flex: auto;
   width: 4vmin;/*2rem*/
   height: 4vmin;
