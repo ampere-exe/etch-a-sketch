@@ -1,0 +1,35 @@
+.main, .title-container, .canvas-container, .canvas , .square{
+  display: flex;
+}
+
+.main {
+  flex-direction: column;
+  gap: 50px;
+}
+.title-container {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: navy;
+  font-size: 50px;
+  font-weight: bold;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.canvas-container {
+  justify-content: center;
+}
+
+.canvas {
+  flex: 1, 1, 0;
+}
+.row {
+  display: block;
+  background-color: blue;
+}
+
+.square {
+  background-color: lightcoral;
+  flex: auto;
+  width: 4vmin;/*2rem*/
+  height: 4vmin;
+}
